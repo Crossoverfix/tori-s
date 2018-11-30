@@ -1,0 +1,13 @@
+/* line 1, ../sass/_btn.scss */
+button, button:active, button:hover, button:visited, button:focus {
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
