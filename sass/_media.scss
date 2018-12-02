@@ -1,12 +1,152 @@
 @media screen and (max-width: 1199px){
-
+  .wide-container{
+    width: 90%;
+  }
+  .about-us{
+    padding-top: 120px;
+    padding-bottom: 90px;
+  }
+  .about-us__img{
+    height: calc(100% - 120px);
+    top: 120px;
+  }
+  .about-us__bg{
+    height: calc(100% - 120px);
+  }
+  .header__body{
+    padding-top: 120px;
+    padding-bottom: 330px;
+    margin-bottom: -170px;
+  }
+  .cities__card__body{
+    padding: 40px 38px;
+  }
 }
 @media screen and (max-width: 991px){
-
+  .cities__card__body{
+    padding: 25px 22px;
+  }
+  .header__nav ul li a img{
+    height: 70px;
+  }
+  .about-us__img{
+    width: 42%;
+  }
+  .about-us{
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .about-us__bg{
+    height: calc(100% - 80px);
+  }
+  .about-us__img{
+    height: calc(100% - 80px);
+    top: 80px;
+  }
+  .about-us__img__point{
+    width: 58%;
+  }
+  .our-packages__body__card{
+    width: 290px;
+  }
+  .our-packages__body__card__head{
+    padding: 35px 10px;
+  }
 }
 @media screen and (max-width: 767px){
-
+  .header__nav ul li a img{
+    height: 52px;
   }
+  .header__nav ul li a{
+    font-size: 12px;
+  }
+  .header__nav ul li a span img{
+    height: 13px;
+    margin-right: 4px;
+  }
+  .header__body h1{
+    font-size: 48px;
+  }
+  .header__body{
+    padding-top: 30px;
+    padding-bottom: 150px;
+    margin-bottom: -90px;
+  }
+  .header__filter__input{
+    margin-bottom: 10px;
+  }
+  .cities__card__body{
+    padding: 18px;
+  }
+  .cities__card__sub-title{
+    font-size: 16px;
+  }
+  .about-us__img__point{
+    width: 85%;
+  }
+  .our-packages{
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .our-packages__body__card{
+    width: 48%;
+  }
+  .footer__contact-us{
+    padding: 40px 0;
+  }
+  .footer__contact-us h2{
+    margin-bottom: 40px;
+  }
+}
 @media screen and (max-width: 574px){
-
+  .header__nav ul{
+    flex-direction: column;
+  }
+  .header__nav ul li{
+    order: 1;
+    margin-bottom: 2px;
+  }
+  li.logo-tip{
+   order: 0!important;
+  }
+  .header__nav{
+    height: auto;
+  }
+  .header__body h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  .header__body__sub-title{
+    font-size: 16px;
+  }
+  .wide-container{
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .header__filter .filter-mod-pd{
+    padding: 0 15px;
+  }
+  .cities{
+    flex-wrap: wrap;
+  }
+  .cities__card{
+    width: 100%;
+  }
+  .cities__card__img{
+    padding-top: calc(100vw / 3);
+  }
+  .cities__card__img img{
+    top: auto;
+    bottom: 0;
+  }
+  .about-us__img{
+    display: none;
+  }
+  .our-packages__body{
+    flex-wrap: wrap;
+  }
+  .our-packages__body__card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

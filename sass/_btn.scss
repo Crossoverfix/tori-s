@@ -2,3 +2,22 @@ button, button:active, button:hover, button:visited,button:focus{
    outline: none!important;
    cursor: pointer;
  }
+.btn-blue{
+  background-color: #327fac;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  padding: 20px 100px;
+  line-height: 22px;
+  &:hover{
+    background-color: #2e5f89;
+  }
+}
+.btn-w-100{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
