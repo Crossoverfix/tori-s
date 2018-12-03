@@ -10,4 +10,8 @@ $(document).ready(function () {
             autoplay:true
         });
     });
+    var $navToggler = $(".nav-bar-collapse");
+    $navToggler.on('click',function () {
+        $(".header__nav ul").toggleClass('show');
+    })
 })

@@ -166,6 +166,9 @@
   }
 }
 @media screen and (max-width: 574px){
+  .nav-bar-collapse{
+    display: block;
+  }
   .category__filter__drop span{
     //display: block;
     //margin-right: 0;
@@ -191,6 +194,8 @@
   }
   .header__nav ul{
     flex-direction: column;
+    height: 54px;
+    overflow: hidden;
   }
   .header__nav ul li{
     order: 1;
@@ -313,5 +318,9 @@
   }
   .reviews__body__comments__head__date{
     float: none;
+  }
+  .header__bg{
+    background-size: 200%;
+    background-position-x: center;
   }
 }
