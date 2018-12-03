@@ -1,7 +1,4 @@
 @media screen and (max-width: 1199px){
-  .wide-container{
-    width: 90%;
-  }
   .about-us{
     padding-top: 120px;
     padding-bottom: 90px;
@@ -31,6 +28,10 @@
     bottom: auto;
     width: 100%;
     flex-wrap: wrap;
+  }
+  .wide-container{
+    width: 100%;
+    min-width: auto;
   }
 }
 @media screen and (max-width: 991px){
@@ -166,10 +167,10 @@
 }
 @media screen and (max-width: 574px){
   .category__filter__drop span{
-    display: block;
-    margin-right: 0;
-    text-align: center;
-    margin-bottom: 10px;
+    //display: block;
+    //margin-right: 0;
+    //text-align: center;
+    //margin-bottom: 10px;
   }
   .category__body__item__card__info{
     position: relative;
@@ -181,9 +182,12 @@
   .category__filter__drop{
     width: 100%;
     padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .category__filter__drop a{
-    width: 100%;
+    padding: 0px 50px;
   }
   .header__nav ul{
     flex-direction: column;

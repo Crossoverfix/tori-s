@@ -10,6 +10,7 @@ body{
 }
 .wide-container{
  width: 82%;
+  min-width: 1200px;
   margin: 0 auto;
 }
 .p-relative{
@@ -1269,6 +1270,12 @@ body{
     &.active{
       background-color: #327fac!important;
     }
+  }
+}
+.header__filter{
+  .row{
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @import "media";
