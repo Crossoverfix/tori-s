@@ -1432,6 +1432,55 @@ body {
   padding-top: 10px;
 }
 
+/* line 1235, ../sass/style.scss */
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 1241, ../sass/style.scss */
+.owl-nav button {
+  position: absolute;
+  top: -25px;
+}
+/* line 1244, ../sass/style.scss */
+.owl-nav button span {
+  font-size: 50px;
+  color: white;
+}
+/* line 1249, ../sass/style.scss */
+.owl-nav .owl-prev {
+  left: 10px;
+  right: auto;
+}
+/* line 1253, ../sass/style.scss */
+.owl-nav .owl-next {
+  right: 10px;
+  left: auto;
+}
+
+/* line 1258, ../sass/style.scss */
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+/* line 1263, ../sass/style.scss */
+.owl-dots button.owl-dot {
+  margin: 0 5px;
+  height: 6px;
+  width: 6px;
+  background-color: #d2d2d2 !important;
+  border-radius: 50%;
+}
+/* line 1269, ../sass/style.scss */
+.owl-dots button.owl-dot.active {
+  background-color: #327fac !important;
+}
+
 @media screen and (max-width: 1199px) {
   /* line 2, ../sass/_media.scss */
   .wide-container {
