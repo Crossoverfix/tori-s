@@ -6,6 +6,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Varela Round', sans-serif;
+  overflow-x: hidden;
 }
 .wide-container{
  width: 82%;
@@ -18,6 +19,9 @@ body{
   &__bg{
     background: url("../img/header_bg.jpg") no-repeat grey;
     background-size: cover;
+    &.mod-small{
+      padding-bottom: 25px;
+    }
   }
   &__nav{
     position: relative;
@@ -464,6 +468,766 @@ body{
       &:focus{
         border: none;
         outline: none;
+      }
+    }
+  }
+}
+.detail{
+  margin-top: 30px;
+  h2{
+    color: #858585;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  &__body{
+    margin-bottom: 50px;
+    &__slider{
+      position: relative;
+      img{
+        width: 100%;
+      }
+    }
+    &__info{
+      &__head{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__rating{
+          display: inline-block;
+          &__star{
+            margin-bottom: 2px;
+            label{
+              width: 16px;
+              height: 16px;
+              margin-right: 0;
+              display: inline-block;
+              background: url("../img/ico_star.png")no-repeat;
+              background-size: cover;
+              margin-bottom: 0;
+            }
+          }
+          p{
+            color: #858585;
+            font-size: 12px;
+          }
+        }
+        &__prise{
+          p{
+            font-size: 14px;
+            color: #858585;
+            margin-bottom: 0;
+            text-align: right;
+          }
+          span{
+            font-size: 30px;
+            color: #fac917;
+            line-height: 12px;
+            margin-bottom: 0;
+            u{
+              font-size: 18px;
+              color: #858585;
+              line-height: 6px;
+              vertical-align: top;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      &__body{
+        margin-bottom: 45px;
+        h3{
+          color: #858585;
+          font-size: 18px;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        a{
+          text-decoration: underline;
+          &:hover{
+            color: #505050;
+          }
+        }
+        &__point{
+          color: #858585;
+          font-size: 14px;
+          margin-bottom: 10px;
+          position: relative;
+          padding-left: 25px;
+          display: block;
+        }
+        &__address{
+          &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            background: url("../img/ico_address.png")no-repeat center;
+            background-size: auto 100%;
+          }
+        }
+        &__date{
+          &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            background: url("../img/ico_calendar_blue.png")no-repeat center;
+            background-size: auto 100%;
+          }
+        }
+        &__included{
+          &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            background: url("../img/ico_include.png")no-repeat center;
+            background-size: auto 100%;
+          }
+        }
+        &__from{
+          &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            background: url("../img/ico_plane.png")no-repeat center;
+            background-size: auto 100%;
+          }
+        }
+        &__par{
+          padding-left: 0;
+        }
+      }
+      &__footer{}
+    }
+  }
+}
+.air-patch{
+  margin: 40px auto 80px auto;
+  width: 80%;
+  position: relative;
+  &__line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 1px;
+    position: relative;
+    border-bottom: dashed 1px #8e8e8e;
+    width: 100%;
+    &__point{
+      position: relative;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      top: 1px;
+      background-color: #8e8e8e;
+      &.plane-left{
+        &:before{
+          background: url("../img/ico_plane.png")no-repeat;
+          background-size: contain;
+        }
+      }
+      &.plane-right{
+        &:before{
+          background: url("../img/ico_plane_right.png")no-repeat;
+          background-size: contain;
+        }
+      }
+      &:before{
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translate(-50%,-100%);
+        width: 22px;
+        height: 22px;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: solid 1px #8e8e8e;
+      }
+      span{
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translate(-50%,100%);
+        color: #858585;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.about-info{
+  padding: 0 55px;
+  margin-bottom: 30px;
+  &__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 45px;
+    a{
+      font-size: 16px;
+      color: #8e8e8e;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 0;
+      &:hover{
+        color: #327fac;
+        text-decoration: none;
+      }
+      &.active{
+        color: #327fac;
+      }
+    }
+    label{
+      height: 28px;
+      width: 1px;
+      background-color: #8e8e8e;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+  &__body{
+    &__title{
+      color: #8e8e8e;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    &__sub-title{
+      color: #8e8e8e;
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    &__day{
+      color: #8e8e8e;
+      font-size: 16px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+    &__par{
+      color: #8e8e8e;
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+  }
+  &__footer{
+    border-top: solid 1px #8e8e8e;
+    border-bottom: solid 1px #8e8e8e;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    &__point{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      margin-bottom: 20px;
+      &__name{
+        text-transform: uppercase;
+        color: rgba(133, 133, 133, 0.6);
+        font-size: 14px;
+        line-height: 16px;
+        width: 35%;
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 0;
+      }
+      &__value{
+        display: inline-block;
+        width: 65%;
+        color: #858585;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.reviews{
+  margin-bottom: 90px;
+  &__video{
+    position: relative;
+    margin-bottom: 40px;
+    img{
+      width: 100%;
+    }
+  }
+  &__body{
+    padding: 0 55px;
+    &__rating{
+      padding-bottom: 35px;
+      border-bottom: solid 1px #cdcdcd;
+      margin-bottom: 50px;
+      &__head{
+        margin-bottom: 35px;
+        p{
+          color: #858585;
+          font-size: 18px;
+          display: inline-block;
+          margin-right: 8px;
+          margin-bottom: 0;
+        }
+        div{
+          display: inline-block;
+          label{
+            display: inline-block;
+            margin-bottom: 0;
+            height: 14px;
+            width: 14px;
+            background: url("../img/ico_star.png")no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+      &__body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 70px;
+        &__point{
+          position: relative;
+          border-radius: 50%;
+          width: 85px;
+          height: 85px;
+          background-color: white;
+          border: solid 5px #ecebeb;
+          &.all-reviews{
+            height: 120px;
+            width: 120px;
+            p{
+             position: relative;
+              white-space: normal;
+              top: 0;
+              transform: translate(-50%, 0%);
+              margin-bottom: 0;
+              width: 70%;
+              margin-top: 15px;
+            }
+            span{
+              position: relative;
+              top: 0;
+              transform: translate(-50%, 0%);
+            }
+          }
+          &:before{
+            content: "";
+            position: absolute;
+            width: calc(100% + 10px);
+            height: calc(100% + 10px);
+            border-radius: 50%;
+            left: -5px;
+            top: -5px;
+            border-right: solid 5px #3682ad;
+            border-bottom: solid 5px transparent;
+            border-left: solid 5px transparent;
+            border-top: solid 5px transparent;
+          }
+          p{
+            display: inline-block;
+            text-align: center;
+            font-size: 16px;
+            line-height: 16px;
+            color: #858585;
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translate(-50%,-100%);
+          }
+          span{
+            position: absolute;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 26px;
+            color: #fac917;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+          }
+        }
+      }
+    }
+    &__comments{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      justify-content: flex-start;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #cdcdcd;
+      &__avatar{
+        display: inline-block;
+        width: 10%;
+        p{
+          font-size: 14px;
+          color: #858585;
+        }
+        &__img{
+          height: 52px;
+          width: 52px;
+          border-radius: 50%;
+          overflow: hidden;
+          background-color: #3d85b0;
+          position: relative;
+          margin-bottom: 10px;
+          img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 100%;
+            transform: translate(-50%,-50%);
+            z-index: 1;
+          }
+          p{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 100%;
+            transform: translate(-50%,-50%);
+            font-size: 24px;
+            color: white;
+            margin-bottom: 0;
+            text-align: center;
+          }
+        }
+      }
+      &__wrap{
+        display: inline-block;
+        width: 90%;
+      }
+      &__head{
+        margin-bottom: 20px;
+        label{
+          height: 15px;
+          width: 15px;
+          display: inline-block;
+          margin-bottom: 0;
+          background: url("../img/ico_star.png")no-repeat;
+          background-size: contain;
+        }
+        p{
+          color: #858585;
+          font-size: 12px;
+          margin-left: 10px;
+          display: inline-block;
+          margin-bottom: 0;
+        }
+        &__date{
+          float: right;
+        }
+      }
+      &__body{
+        font-size: 16px;
+        color: #858585;
+        p{
+          margin-bottom: 5px;
+        }
+      }
+      &__footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        a{
+          font-size: 14px;
+          color: #fac917;
+          position: relative;
+          padding-right: 20px;
+          display: inline-block;
+          &:after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            height: 14px;
+            transform: translateY(-50%);
+            width: 14px;
+            background: url("../img/ico_arrow.png")no-repeat center;
+            background-size: contain;
+          }
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+.category{
+  background-color: #f7f7f7;
+  padding: 15px 0;
+  &__filter{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    &__text{
+      p{
+        font-size: 16px;
+        color: #858585;
+        margin-bottom: 0;
+      }
+    }
+    &__drop{
+      span{
+        font-size: 16px;
+        color: #858585;
+        margin-right: 10px;
+      }
+      a{
+        display: inline-block;
+        background-color: white;
+        font-size: 18px;
+        color: #858585;
+        padding: 0 80px;
+        height: 62px;
+        line-height: 62px;
+        position: relative;
+        &:hover{
+          text-decoration: none;
+          color: black;
+        }
+        &:before{
+          content: "";
+          height: 14px;
+          width: 14px;
+          position: absolute;
+          right: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../img/ico_drop.png")no-repeat center;
+          background-size: contain;
+        }
+      }
+    }
+    &__drop-down{
+      display: none;
+    }
+  }
+  &__body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    &__item{
+      width: calc(50% - 4px);
+      margin-bottom: 10px;
+      &__card{
+        background-color: white;
+        padding: 12px;
+        position: relative;
+        &__img{
+          position: relative;
+          width: 100%;
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+        &__head{
+          position: absolute;
+          left: 26px;
+          top: 22px;
+          width: calc(100% - 52px);
+          p{
+            margin-bottom: 0;
+            color: white;
+            font-size: 12px;
+          }
+          &__rating{
+            label{
+              margin-bottom: 0;
+              display: inline-block;
+              height: 14px;
+              width: 14px;
+              background: url("../img/ico_star.png")no-repeat center;
+              background-size: contain;
+            }
+          }
+        }
+        &__info{
+          position: absolute;
+          left: 12px;
+          bottom: 12px;
+          width: calc(100% - 24px);
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          align-items: stretch;
+          padding: 12px 0 18px 0;
+          &.card-blue{
+            background-color: rgba(50, 127, 172, 0.9);
+          }
+          &.card-green{
+            background-color: rgba(50, 78, 56, 0.9);
+          }
+          &__title{
+            color: white;
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          a{
+            text-decoration: underline;
+            &:hover{
+              color: #b0b0b0;
+            }
+          }
+          &__point{
+            color: white;
+            font-size: 14px;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+            display: inline-block;
+            width: 49%;
+          }
+          &__address{
+            &:before{
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 18px;
+              height: 18px;
+              background: url("../img/ico_address_w.png")no-repeat center;
+              background-size: auto 100%;
+            }
+          }
+          &__date{
+            &:before{
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 18px;
+              height: 18px;
+              background: url("../img/ico_calendar_w.png")no-repeat center;
+              background-size: auto 100%;
+            }
+          }
+          &__included{
+            &:before{
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 18px;
+              height: 18px;
+              background: url("../img/ico_include_w.png")no-repeat center;
+              background-size: auto 100%;
+            }
+          }
+          &__from{
+            &:before{
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 18px;
+              height: 18px;
+              background: url("../img/ico_plane_w.png")no-repeat center;
+              background-size: auto 100%;
+            }
+          }
+          &__prise{
+            p{
+              font-size: 14px;
+              color: white;
+              margin-bottom: 0;
+              text-align: right;
+            }
+            span{
+              font-size: 30px;
+              color: #fac917;
+              line-height: 12px;
+              margin-bottom: 0;
+              text-align: right;
+              width: 100%;
+              display: inline-block;
+              u{
+                font-size: 18px;
+                color: white;
+                line-height: 6px;
+                vertical-align: top;
+                text-decoration: none;
+              }
+            }
+          }
+          &__link{
+            white-space: nowrap;
+            text-decoration: none!important;
+            color: #fac917;
+            font-size: 14px;
+            position: relative;
+            padding-right: 20px;
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+            &:after{
+              content: "";
+              position: absolute;
+              right: 0;
+              top: 50%;
+              height: 14px;
+              transform: translateY(-50%);
+              width: 14px;
+              background: url("../img/ico_arrow.png")no-repeat center;
+              background-size: contain;
+            }
+            &:hover{
+              color: #fac917!important;
+              text-decoration: underline!important;
+            }
+          }
+          &__wrap{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 10px;
+          }
+        }
       }
     }
   }

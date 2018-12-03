@@ -21,8 +21,30 @@
   .cities__card__body{
     padding: 40px 38px;
   }
+  .category__body__item__card__info__point{
+    font-size: 12px;
+  }
+  .category__body__item__card__info{
+    position: relative;
+    left: 0;
+    top: -1px;
+    bottom: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 991px){
+  .category__body__item__card__info__wrap{
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .category__body__item__card__info__prise{
+    width: 50%;
+    text-align: left;
+  }
+  .category__body__item__card__info__prise span,.category__body__item__card__info__prise p{
+    text-align: left;
+  }
   .cities__card__body{
     padding: 25px 22px;
   }
@@ -52,8 +74,36 @@
   .our-packages__body__card__head{
     padding: 35px 10px;
   }
+  .reviews__body{
+    padding: 0;
+  }
+  .reviews__body__rating__body{
+    padding: 0;
+  }
+  .about-info{
+    padding: 0;
+  }
 }
 @media screen and (max-width: 767px){
+  .category__body__item{
+    width: 100%;
+  }
+  .category__body__item__card__info{
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    top: auto;
+    width: calc(100% - 24px);
+  }
+  .category__filter__text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .category__filter{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .header__nav ul li a img{
     height: 52px;
   }
@@ -97,8 +147,44 @@
   .footer__contact-us h2{
     margin-bottom: 40px;
   }
+  .about-info__head a{
+    font-size: 14px;
+  }
+  .reviews__body__rating__body{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .reviews__body__rating__body__point{
+    margin: 20px 30px;
+  }
+  .reviews__body__comments__avatar{
+    width: 15%;
+  }
+  .reviews__body__comments__wrap{
+    width: 85%;
+  }
 }
 @media screen and (max-width: 574px){
+  .category__filter__drop span{
+    display: block;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .category__body__item__card__info{
+    position: relative;
+    left: 0;
+    top: -1px;
+    bottom: auto;
+    width: 100%;
+  }
+  .category__filter__drop{
+    width: 100%;
+    padding: 0 15px;
+  }
+  .category__filter__drop a{
+    width: 100%;
+  }
   .header__nav ul{
     flex-direction: column;
   }
@@ -148,5 +234,80 @@
   .our-packages__body__card{
     width: 100%;
     margin-bottom: 20px;
+  }
+  .about-info__head{
+    flex-direction: column;
+  }
+  .about-info__head a{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .about-info__head label{
+    height: 1px;
+    width: 28px;
+    margin-bottom: 5px;
+  }
+  .about-info__body{
+    padding: 0 15px;
+  }
+  .about-info__footer__point__name{
+    width: 50%;
+  }
+  .about-info__footer__point__value{
+    width: 50%;
+  }
+  .reviews__body__rating__body__point{
+    width: 170px;
+    height: 170px;
+    margin: 30px auto;
+  }
+  .reviews__body__rating__body__point.all-reviews{
+    height: 230px;
+    width: 230px;
+  }
+  .reviews__body__rating__body__point span{
+    font-size: 44px;
+  }
+  .reviews__body__rating__body__point p{
+    font-size: 20px;
+    top: -15px;
+  }
+  .reviews__body__rating__body__point.all-reviews p{
+    margin-top: 75px;
+  }
+  .reviews__body__rating__head p{
+    font-size: 28px;
+  }
+  .reviews__body__rating__head div label{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+  }
+  .reviews__body__comments{
+    flex-wrap: wrap;
+  }
+  .reviews__body__comments__avatar{
+    width: 100%;
+  }
+  .reviews__body__comments__wrap{
+    width: 100%;
+  }
+  .reviews__body__comments__avatar__img{
+    display: inline-block;
+    height: 82px;
+    width: 82px;
+    margin-right: 20px;
+  }
+  .reviews__body__comments__avatar p{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+  }
+  .reviews__body__comments__head p{
+    display: block;
+    margin-left: 0;
+  }
+  .reviews__body__comments__head__date{
+    float: none;
   }
 }
