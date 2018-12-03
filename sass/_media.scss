@@ -199,7 +199,10 @@
   }
   .header__nav ul li{
     order: 1;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
+  }
+  .header__nav ul li a{
+    font-size: 16px;
   }
   li.logo-tip{
    order: 0!important;

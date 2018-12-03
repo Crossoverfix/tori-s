@@ -1812,168 +1812,173 @@ body {
   /* line 200, ../sass/_media.scss */
   .header__nav ul li {
     order: 1;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
 
   /* line 204, ../sass/_media.scss */
+  .header__nav ul li a {
+    font-size: 16px;
+  }
+
+  /* line 207, ../sass/_media.scss */
   li.logo-tip {
     order: 0 !important;
   }
 
-  /* line 207, ../sass/_media.scss */
+  /* line 210, ../sass/_media.scss */
   .header__nav {
     height: auto;
   }
 
-  /* line 210, ../sass/_media.scss */
+  /* line 213, ../sass/_media.scss */
   .header__body h1 {
     font-size: 38px;
     margin-bottom: 10px;
   }
 
-  /* line 214, ../sass/_media.scss */
+  /* line 217, ../sass/_media.scss */
   .header__body__sub-title {
     font-size: 16px;
   }
 
-  /* line 217, ../sass/_media.scss */
+  /* line 220, ../sass/_media.scss */
   .wide-container {
     width: calc(100% + 30px);
     margin-left: -15px;
   }
 
-  /* line 221, ../sass/_media.scss */
+  /* line 224, ../sass/_media.scss */
   .header__filter .filter-mod-pd {
     padding: 0 15px;
   }
 
-  /* line 224, ../sass/_media.scss */
+  /* line 227, ../sass/_media.scss */
   .cities {
     flex-wrap: wrap;
   }
 
-  /* line 227, ../sass/_media.scss */
+  /* line 230, ../sass/_media.scss */
   .cities__card {
     width: 100%;
   }
 
-  /* line 230, ../sass/_media.scss */
+  /* line 233, ../sass/_media.scss */
   .cities__card__img {
     padding-top: calc(100vw / 3);
   }
 
-  /* line 233, ../sass/_media.scss */
+  /* line 236, ../sass/_media.scss */
   .cities__card__img img {
     top: auto;
     bottom: 0;
   }
 
-  /* line 237, ../sass/_media.scss */
+  /* line 240, ../sass/_media.scss */
   .about-us__img {
     display: none;
   }
 
-  /* line 240, ../sass/_media.scss */
+  /* line 243, ../sass/_media.scss */
   .our-packages__body {
     flex-wrap: wrap;
   }
 
-  /* line 243, ../sass/_media.scss */
+  /* line 246, ../sass/_media.scss */
   .our-packages__body__card {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* line 247, ../sass/_media.scss */
+  /* line 250, ../sass/_media.scss */
   .about-info__head {
     flex-direction: column;
   }
 
-  /* line 250, ../sass/_media.scss */
+  /* line 253, ../sass/_media.scss */
   .about-info__head a {
     font-size: 20px;
     margin-bottom: 5px;
   }
 
-  /* line 254, ../sass/_media.scss */
+  /* line 257, ../sass/_media.scss */
   .about-info__head label {
     height: 1px;
     width: 28px;
     margin-bottom: 5px;
   }
 
-  /* line 259, ../sass/_media.scss */
+  /* line 262, ../sass/_media.scss */
   .about-info__body {
     padding: 0 15px;
   }
 
-  /* line 262, ../sass/_media.scss */
+  /* line 265, ../sass/_media.scss */
   .about-info__footer__point__name {
     width: 50%;
   }
 
-  /* line 265, ../sass/_media.scss */
+  /* line 268, ../sass/_media.scss */
   .about-info__footer__point__value {
     width: 50%;
   }
 
-  /* line 268, ../sass/_media.scss */
+  /* line 271, ../sass/_media.scss */
   .reviews__body__rating__body__point {
     width: 170px;
     height: 170px;
     margin: 30px auto;
   }
 
-  /* line 273, ../sass/_media.scss */
+  /* line 276, ../sass/_media.scss */
   .reviews__body__rating__body__point.all-reviews {
     height: 230px;
     width: 230px;
   }
 
-  /* line 277, ../sass/_media.scss */
+  /* line 280, ../sass/_media.scss */
   .reviews__body__rating__body__point span {
     font-size: 44px;
   }
 
-  /* line 280, ../sass/_media.scss */
+  /* line 283, ../sass/_media.scss */
   .reviews__body__rating__body__point p {
     font-size: 20px;
     top: -15px;
   }
 
-  /* line 284, ../sass/_media.scss */
+  /* line 287, ../sass/_media.scss */
   .reviews__body__rating__body__point.all-reviews p {
     margin-top: 75px;
   }
 
-  /* line 287, ../sass/_media.scss */
+  /* line 290, ../sass/_media.scss */
   .reviews__body__rating__head p {
     font-size: 28px;
   }
 
-  /* line 290, ../sass/_media.scss */
+  /* line 293, ../sass/_media.scss */
   .reviews__body__rating__head div label {
     width: 20px;
     height: 20px;
     margin-right: 3px;
   }
 
-  /* line 295, ../sass/_media.scss */
+  /* line 298, ../sass/_media.scss */
   .reviews__body__comments {
     flex-wrap: wrap;
   }
 
-  /* line 298, ../sass/_media.scss */
+  /* line 301, ../sass/_media.scss */
   .reviews__body__comments__avatar {
     width: 100%;
   }
 
-  /* line 301, ../sass/_media.scss */
+  /* line 304, ../sass/_media.scss */
   .reviews__body__comments__wrap {
     width: 100%;
   }
 
-  /* line 304, ../sass/_media.scss */
+  /* line 307, ../sass/_media.scss */
   .reviews__body__comments__avatar__img {
     display: inline-block;
     height: 82px;
@@ -1981,25 +1986,25 @@ body {
     margin-right: 20px;
   }
 
-  /* line 310, ../sass/_media.scss */
+  /* line 313, ../sass/_media.scss */
   .reviews__body__comments__avatar p {
     display: inline-block;
     vertical-align: top;
     font-size: 20px;
   }
 
-  /* line 315, ../sass/_media.scss */
+  /* line 318, ../sass/_media.scss */
   .reviews__body__comments__head p {
     display: block;
     margin-left: 0;
   }
 
-  /* line 319, ../sass/_media.scss */
+  /* line 322, ../sass/_media.scss */
   .reviews__body__comments__head__date {
     float: none;
   }
 
-  /* line 322, ../sass/_media.scss */
+  /* line 325, ../sass/_media.scss */
   .header__bg {
     background-size: 200%;
     background-position-x: center;
