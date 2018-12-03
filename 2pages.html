@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Tori</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container-fluid header__bg mod-small">
+        <div class="container">
+            <div class="row header__nav">
+                <nav class="col-lg-10 col-12 mx-auto">
+                    <button class="nav-bar-collapse"><div></div><div></div><div></div></button>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Our Packages</span>
+                            </a>
+                        </li>
+                        <li class="logo-tip">
+                            <a href="#">
+                                <picture>
+                                    <img src="img/logo.png" alt="logo">
+                                </picture>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Contact Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><img src="img/ico_phone.png" alt="phone">+1 844 311 3006</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__filter wide-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 filter-mod-pd">
+                        <a href="#" class="header__filter__input">
+                            <input type="text" name="location" value="Where do you want to go?" readonly>
+                        </a>
+                    </div>
+                    <div class="col-md-5 col-12 input-wrap">
+                        <div class="col-sm-6 col-12 filter-mod-pd">
+                            <a href="#" class="header__filter__input input-data">
+                                <input type="text" name="from" value="Date from" readonly>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-12 filter-mod-pd">
+                            <a href="#" class="header__filter__input input-data">
+                                <input type="text" name="to" value="Date to" readonly>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 col-12 mx-auto mx-md-0 filter-mod-pd">
+                        <button class="btn-blue btn-w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container-fluid category">
+        <div class="container">
+            <div class="row">
+                <div class="category__filter">
+                    <div class="category__filter__text">
+                        <p><span>10</span>/<span>100</span> trips through Egypt</p>
+                    </div>
+                    <div class="category__filter__drop">
+                        <span>Sort by</span>
+                        <a href="#">Popularity</a>
+                    </div>
+                    <div class="category__filter__drop-down">
+                        <a href="#">Popularity</a>
+                        <a href="#">Rating</a>
+                        <a href="#">Recent</a>
+                        <a href="#">Date</a>
+                    </div>
+                </div>
+                <div class="category__body">
+                    <div class="category__body__item">
+                        <div class="category__body__item__card">
+                            <div class="category__body__item__card__img">
+                                <picture>
+                                    <img src="img/img_category_1.jpg" alt="img">
+                                </picture>
+                            </div>
+                            <div class="category__body__item__card__head">
+                                <div class="category__body__item__card__head__rating">
+                                    <label></label><label></label><label></label><label></label><label></label>
+                                </div>
+                                <p>30 reviews - Exellent</p>
+                            </div>
+                            <div class="category__body__item__card__info card-blue">
+                                <div class="col-lg-9 col-12">
+                                    <p class="category__body__item__card__info__title">Laguna Vista Beach Resort 5* - 9 Days</p>
+                                    <a href="#" class="category__body__item__card__info__address category__body__item__card__info__point">Sharm el sheikh</a>
+                                    <span class="category__body__item__card__info__date category__body__item__card__info__point">3 Nov 2018, 9 Days</span>
+                                    <span class="category__body__item__card__info__included category__body__item__card__info__point">All inclusive</span>
+                                    <span class="category__body__item__card__info__from category__body__item__card__info__point">from Kyiv</span>
+                                </div>
+                                <div class="col-lg-3 col-12 category__body__item__card__info__wrap">
+                                    <div class="category__body__item__card__info__prise">
+                                        <span><u>$ </u>600</span>
+                                        <p>for person</p>
+                                    </div>
+                                    <a href="#" class="category__body__item__card__info__link">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__body__item">
+                        <div class="category__body__item__card">
+                            <div class="category__body__item__card__img">
+                                <picture>
+                                    <img src="img/img_category_2.jpg" alt="img">
+                                </picture>
+                            </div>
+                            <div class="category__body__item__card__head">
+                                <div class="category__body__item__card__head__rating">
+                                    <label></label><label></label><label></label><label></label><label></label>
+                                </div>
+                                <p>30 reviews - Exellent</p>
+                            </div>
+                            <div class="category__body__item__card__info card-green">
+                                <div class="col-lg-9 col-12">
+                                    <p class="category__body__item__card__info__title">Laguna Vista Beach Resort 5* - 9 Days</p>
+                                    <a href="#" class="category__body__item__card__info__address category__body__item__card__info__point">Sharm el sheikh</a>
+                                    <span class="category__body__item__card__info__date category__body__item__card__info__point">3 Nov 2018, 9 Days</span>
+                                    <span class="category__body__item__card__info__included category__body__item__card__info__point">All inclusive</span>
+                                    <span class="category__body__item__card__info__from category__body__item__card__info__point">from Kyiv</span>
+                                </div>
+                                <div class="col-lg-3 col-12 category__body__item__card__info__wrap">
+                                    <div class="category__body__item__card__info__prise">
+                                        <span><u>$ </u>600</span>
+                                        <p>for person</p>
+                                    </div>
+                                    <a href="#" class="category__body__item__card__info__link">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__body__item">
+                        <div class="category__body__item__card">
+                            <div class="category__body__item__card__img">
+                                <picture>
+                                    <img src="img/img_category_2.jpg" alt="img">
+                                </picture>
+                            </div>
+                            <div class="category__body__item__card__head">
+                                <div class="category__body__item__card__head__rating">
+                                    <label></label><label></label><label></label><label></label><label></label>
+                                </div>
+                                <p>30 reviews - Exellent</p>
+                            </div>
+                            <div class="category__body__item__card__info card-green">
+                                <div class="col-lg-9 col-12">
+                                    <p class="category__body__item__card__info__title">Laguna Vista Beach Resort 5* - 9 Days</p>
+                                    <a href="#" class="category__body__item__card__info__address category__body__item__card__info__point">Sharm el sheikh</a>
+                                    <span class="category__body__item__card__info__date category__body__item__card__info__point">3 Nov 2018, 9 Days</span>
+                                    <span class="category__body__item__card__info__included category__body__item__card__info__point">All inclusive</span>
+                                    <span class="category__body__item__card__info__from category__body__item__card__info__point">from Kyiv</span>
+                                </div>
+                                <div class="col-lg-3 col-12 category__body__item__card__info__wrap">
+                                    <div class="category__body__item__card__info__prise">
+                                        <span><u>$ </u>600</span>
+                                        <p>for person</p>
+                                    </div>
+                                    <a href="#" class="category__body__item__card__info__link">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid footer__contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+            <form class="row">
+                <div class="col-md-6 col-12">
+                    <div class="footer__contact-us__input">
+                        <input type="email" name="email" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="footer__contact-us__input">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer__contact-us__input text-area">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="ml-auto col-lg-3 col-md-4 col-sm-5 col-12">
+                    <button class="btn-blue btn-w-100">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

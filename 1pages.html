@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Tori</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container-fluid header__bg">
+        <div class="container">
+            <div class="row header__nav">
+                <nav class="col-lg-10 col-12 mx-auto">
+                    <button class="nav-bar-collapse"><div></div><div></div><div></div></button>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Our Packages</span>
+                            </a>
+                        </li>
+                        <li class="logo-tip">
+                            <a href="#">
+                                <picture>
+                                    <img src="img/logo.png" alt="logo">
+                                </picture>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Contact Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><img src="img/ico_phone.png" alt="phone">+1 844 311 3006</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__body">
+                <h1>Find your travel easy</h1>
+                <p class="header__body__sub-title">Find thousands of experiences that match when and where you want to go.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="header__filter wide-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 filter-mod-pd">
+                        <a href="#" class="header__filter__input">
+                            <input type="text" name="location" value="Where do you want to go?" readonly>
+                        </a>
+                    </div>
+                    <div class="col-md-5 col-12 input-wrap">
+                        <div class="col-sm-6 col-12 filter-mod-pd">
+                            <a href="#" class="header__filter__input input-data">
+                                <input type="text" name="from" value="Date from" readonly>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-12 filter-mod-pd">
+                            <a href="#" class="header__filter__input input-data">
+                                <input type="text" name="to" value="Date to" readonly>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 col-12 mx-auto mx-md-0 filter-mod-pd">
+                        <button class="btn-blue btn-w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container-fluid">
+        <div class="cities wide-container">
+            <a href="#" class="cities__card">
+                <div class="cities__card__img">
+                    <picture>
+                        <source srcset="img/city_mexico.jpg">
+                        <img href="img/city_mexico.jpg" alt="city">
+                    </picture>
+                </div>
+                <div class="cities__card__body">
+                    <h2>Mexico</h2>
+                    <p class="cities__card__sub-title">Beautiful country</p>
+                </div>
+            </a>
+            <a href="#" class="cities__card">
+                <div class="cities__card__img">
+                    <picture>
+                        <source srcset="img/city_spain.jpg">
+                        <img href="img/city_spain.jpg" alt="city">
+                    </picture>
+                </div>
+                <div class="cities__card__body">
+                    <h2>Spain</h2>
+                    <p class="cities__card__sub-title">Sunny historic heart</p>
+                </div>
+            </a>
+            <a href="#" class="cities__card">
+                <div class="cities__card__img">
+                    <picture>
+                        <source srcset="img/city_argentina.jpg">
+                        <img href="img/city_argentina.jpg" alt="city">
+                    </picture>
+                </div>
+                <div class="cities__card__body">
+                    <h2>Argentina</h2>
+                    <p class="cities__card__sub-title">Referred as the Boot</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid p-relative">
+        <div class="about-us__bg"></div>
+        <div class="about-us wide-container">
+            <div class="about-us__img">
+                <div class="about-us__img__point">
+                    <picture>
+                        <source srcset="img/about_us_2.jpg">
+                        <img href="img/about_us_1.jpg" alt="img">
+                    </picture>
+                </div>
+                <div class="about-us__img__point">
+                    <picture>
+                        <source srcset="img/about_us_1.jpg">
+                        <img href="img/about_us_2.jpg" alt="img">
+                    </picture>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-7 col-12">
+                        <h2 class="about-us__title">About us</h2>
+                        <p class="about-us__sub-title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, felis et fermentum iaculis, tortor ligula blandit purus, eget fringilla erat metus ac nisl. Phasellus nisl odio, cursus ac tristique ut, molestie quis velit. Ut ac vestibulum orci. Fusce vitae tempus sem, et varius dui. Morbi leo enim, tempus non faucibus fringilla, commodo vel felis. Nam in arcu ac quam posuere imperdiet. Donec id ex et magna ornare eleifend ut id ipsum. Duis viverra libero vitae faucibus convallis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid our-packages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Our packages</h2>
+                </div>
+                <div class="our-packages__body col-12">
+                    <div class="our-packages__body__card card-blue">
+                        <a href="#" class="our-packages__body__card__head">
+                            <div class="our-packages__body__card__head__bg"></div>
+                            <h3>Tori Escape</h3>
+                            <p><u>$</u> <i>600</i> <span>for person</span></p>
+                        </a>
+                        <div class="our-packages__body__card__body">
+                            <p class="our-packages__body__card__body__small">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at exercitationem maxime.
+                            </p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            <p class="our-packages__body__card__body__normal">Lorem ipsum dolor sit.</p>
+                            <p class="our-packages__body__card__body__normal label-free">Lorem ipsum dolor sit amet.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor.</p>
+                            <p class="our-packages__body__card__body__fade">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ipsa labore quae.
+                            </p>
+                            <p class="our-packages__body__card__body__normal">Lorem ipsum dolor sit.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                        <button class="our-packages__body__card__footer">
+                            <img src="img/ico_cart.png" alt="ico">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
+                    <div class="our-packages__body__card card-green">
+                        <a href="#" class="our-packages__body__card__head">
+                            <div class="our-packages__body__card__head__bg"></div>
+                            <h3>Tori Escape</h3>
+                            <p><u>$</u> <i>600</i> <span>for person</span></p>
+                        </a>
+                        <div class="our-packages__body__card__body">
+                            <p class="our-packages__body__card__body__small">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at exercitationem maxime.
+                            </p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            <p class="our-packages__body__card__body__normal">Lorem ipsum dolor sit.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor.</p>
+                            <p class="our-packages__body__card__body__normal label-free">Lorem ipsum dolor sit amet.</p>
+                            <p class="our-packages__body__card__body__fade">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ipsa labore quae.
+                            </p>
+                            <p class="our-packages__body__card__body__normal">Lorem ipsum dolor sit.</p>
+                            <p class="our-packages__body__card__body__fade">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                        <button class="our-packages__body__card__footer">
+                            <img src="img/ico_cart.png" alt="ico">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid footer__contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+            <form class="row">
+                <div class="col-md-6 col-12">
+                    <div class="footer__contact-us__input">
+                        <input type="email" name="email" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="footer__contact-us__input">
+                        <input type="text" name="subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer__contact-us__input text-area">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="ml-auto col-lg-3 col-md-4 col-sm-5 col-12">
+                    <button class="btn-blue btn-w-100">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
